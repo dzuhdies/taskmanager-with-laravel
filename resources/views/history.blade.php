@@ -92,7 +92,7 @@
                 return;
             }
             const data = await res.json();
-            if (!data.is_done) document.getElementById(`task-${id}`)?.remove(); // dipulihkan → keluar
+            if (!data.is_done) document.getElementById(`task-${id}`)?.remove();
             hideKebab();
         }
 
