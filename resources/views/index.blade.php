@@ -130,7 +130,7 @@
                 return;
             }
             const data = await res.json();
-            if (data.is_done) document.getElementById(`task-${id}`)?.remove(); // pindah ke History
+            if (data.is_done) document.getElementById(`task-${id}`)?.remove();
         }
 
         async function deleteTask(id) {
